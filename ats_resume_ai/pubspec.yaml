@@ -1,4 +1,4 @@
-name: ats_resume
+name: ats_resume_ai
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -34,9 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  google_mobile_ads: ^7.0.0
-  pdf: ^3.11.3
-  path_provider: ^2.1.5
+  http: ^1.6.0
+  file_picker: ^10.3.8
 
 dev_dependencies:
   flutter_test:
